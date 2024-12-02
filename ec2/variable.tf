@@ -1,21 +1,27 @@
 variable "instance" {
 
     type = string
-    default = "t2.micro"
+
+    default = " "
   
 }
+
 
 variable "ami" {
 
+
     type = string
-    default = "ami-0327f51db613d7bd2"
+
+    default = " "
   
 }
 
+
 variable "key" {
+
 
     type = string
 
-    default = "pavan"
+    default = " "
   
 }
